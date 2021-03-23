@@ -26,8 +26,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-##Python Code
-
+## Python Code
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
@@ -36,15 +35,11 @@ function fancyAlert(arg) {
 }
 ```
 
-##Task List
-
+## Task List
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
-
-
-
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
