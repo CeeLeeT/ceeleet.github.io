@@ -1,5 +1,28 @@
 ## Welcome to GitHub Pages
 
+## Images
+
+![GitHub Logo](https://ceeleet.files.wordpress.com/2020/05/pngwave95.png?w=650&h=593&crop=1)
+#Format: ![Alt Text](url)
+
+## Blockquotes
+
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
+## Crossed out
+
+Any word wrapped with two tildes will appear crossed out.
+(like ~~this~~) 
+
+## Inline code
+
+I think you should use an
+`<addr>` element here instead.
+########################################################
+
 You can use the [editor on GitHub](https://github.com/CeeLeeT/CeeLeeT.github.io/edit/main/README.md) 
 to maintain and preview the content for your website in Markdown files.
 
