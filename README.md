@@ -1,9 +1,10 @@
 ## Welcome to GitHub Pages
 
-## Images
-
 ![GitHub Logo](https://ceeleet.files.wordpress.com/2020/05/pngwave95.png?w=650&h=593&crop=1)
 #Format: ![Alt Text](url)
+
+![GitHub Logo2](https://geekstation.onthewifi.com/wordpress/wp-content/themes/90s-retro/images/retro-torch.gif)
+Format: ![DS III](https://geekstation.onthewifi.com/wordpress/wp-content/themes/90s-retro/images/retro-torch.gif)
 
 ## Blockquotes
 
