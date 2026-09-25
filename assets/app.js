@@ -1,0 +1,1 @@
+document.querySelector("#year").textContent=new Date().getFullYear();const status=document.querySelector("#status");setInterval(()=>{status.style.opacity=status.style.opacity==="0.55"?"1":"0.55"},1100);
