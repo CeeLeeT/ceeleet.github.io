@@ -1,38 +1,141 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="GeekStation – CeeLeeTs Portfolio für Cybersecurity, Networking, Linux und Python."><title>GeekStation // CeeLeeT</title><link rel="stylesheet" href="assets/style.css"></head><body>
-<nav><a class="brand" href="#top">◈ <b>GeekStation</b><small>CYBERSECURITY · NETWORKING · LINUX</small></a><div class="navlinks"><a href="#projects">Projekte</a><a href="#lab">Lab</a><a href="#stack">Tech Stack</a><a href="#about">Über mich</a><a href="https://github.com/CeeLeeT">GitHub ↗</a></div></nav>
-<main id="top">
-<section class="hero"><div class="copy"><p class="eyebrow">WELCOME TO MY DIGITAL LAB</p><h1>GEEK<span>STATION</span></h1><h2>CYBERSECURITY · NETWORKING · LINUX · PYTHON · HOMELAB</h2><p>Mein persönliches IT-Lab mit Projekten, Dokumentation und praktischen Experimenten rund um Netzwerke, Linux, Python und defensive Cybersecurity.</p><div class="buttons"><a class="blue" href="#projects">Meine Projekte ↓</a><a href="https://github.com/CeeLeeT">GitHub Profil ↗</a></div><div class="facts"><b>8+<small>Projektbereiche</small></b><b>4<small>Kernbereiche</small></b><b>100%<small>Learning by doing</small></b></div></div>
-<div class="visual"><img src="assets/geekstation-dashboard.png" alt="GeekStation Cybersecurity Dashboard Visual"><div class="visual-caption"><i></i> GEEKSTATION // COMMAND CENTER</div></div></section>
-<section id="projects" class="block"><header><span>★</span><h2>Featured Projects</h2><p>Ausgewählte Projekte aus meinem Lab</p></header><div class="cards">
-<a class="card wide" href="https://github.com/CeeLeeT/cybersecurity-lab-dashboard"><div class="thumb threat">◎<small>SECURITY LAB</small></div><div class="pad"><label>WEB / SECURITY</label><h3>Cybersecurity Lab Dashboard</h3><p>Dashboard für Lab-Inventar, Lernziele und lokale Notizen.</p><tags><i>HTML</i><i>CSS</i><i>JavaScript</i></tags></div></a>
-<a class="card" href="https://github.com/CeeLeeT/network-scanner-python"><div class="thumb net">⌁<small>NETWORK</small></div><div class="pad"><label>PYTHON / NETWORK</label><h3>Network Scanner</h3><p>Host Discovery für eigene oder autorisierte Netzwerke.</p><tags><i>Python</i><i>TCP/IP</i><i>CLI</i></tags></div></a>
-<a class="card" href="https://github.com/CeeLeeT/linux-system-monitor"><div class="thumb monitor">⌘<small>LINUX</small></div><div class="pad"><label>PYTHON / LINUX</label><h3>Linux System Monitor</h3><p>Uptime, Kernel, Load, RAM und Disk direkt im Terminal.</p><tags><i>Python</i><i>Linux</i><i>/proc</i></tags></div></a>
-</div></section>
-<section class="block"><header><span>⌘</span><h2>Project Archive</h2><p>Repos, Labs, Experimente & Dokumentation</p></header><div class="archive">
-<a href="https://github.com/CeeLeeT/Kali-Linux"><b>Kali Linux</b><span>LAB / DOCS</span><p>Notizen und Dokumentation rund um Kali Linux.</p></a>
-<a href="https://github.com/CeeLeeT/Python"><b>Python</b><span>LEARNING</span><p>Python-Notizen, Links und kleine Skripte.</p></a>
-<a href="https://github.com/CeeLeeT/Terminal"><b>Terminal</b><span>DOCS</span><p>Terminal- und Command-Line-Dokumentation.</p></a>
-<a href="https://github.com/CeeLeeT/Windows"><b>Windows</b><span>DOCS</span><p>Windows-Notizen und technische Referenzen.</p></a>
-<a href="https://github.com/CeeLeeT/code"><b>Code</b><span>ARCHIVE</span><p>Älteres Code- und Referenz-Repository.</p></a>
-<a href="https://github.com/CeeLeeT"><b>GitHub</b><span>ALL REPOS</span><p>Alle öffentlichen Repositories ansehen.</p></a>
-</div></section>
-<section id="stack" class="block split"><div><header><span>▣</span><h2>Tech Stack</h2></header><div class="tech"><b>🐧<small>Linux</small></b><b>◈<small>Kali Linux</small></b><b>Py<small>Python</small></b><b>&gt;_<small>Shell</small></b><b>⌁<small>Network</small></b><b>◇<small>Security</small></b><b>HTML<small>Web</small></b><b>Git<small>GitHub</small></b></div></div>
-<div id="lab"><header><span>⌁</span><h2>Homelab Focus</h2></header><div class="status"><p><i></i><b>Linux & System Administration</b><span>ACTIVE</span></p><p><i></i><b>Networking & Protocols</b><span>ACTIVE</span></p><p><i></i><b>Python & Automation</b><span>BUILDING</span></p><p><i></i><b>Cybersecurity Lab</b><span>LEARNING</span></p></div></div></section>
-<section id="topology" class="block topology-block"><header><span>⌁</span><h2>Homelab Topology</h2><p>Vereinfachte Darstellung meines Lern- und Testnetzwerks</p></header>
-<div class="topology"><div class="topo-grid">
-<div class="node internet"><i>◎</i><b>Internet</b><small>WAN</small></div>
-<div class="wire w1"></div>
-<div class="node router"><i>▣</i><b>FRITZ!Box 6660</b><small>ROUTER · DHCP · GATEWAY</small></div>
-<div class="wire w2"></div>
-<div class="node ap"><i>◉</i><b>FRITZ!Box 7490</b><small>ACCESS POINT</small></div>
-<div class="wire w3"></div>
-<div class="node switch"><i>⌁</i><b>LAN / WLAN</b><small>LAB NETWORK</small></div>
-<div class="branch"></div>
-<div class="node endpoint n1"><i>π</i><b>Raspberry Pi</b><small>LINUX NODE</small></div>
-<div class="node endpoint n2"><i>◆</i><b>Kali VM</b><small>SECURITY LAB</small></div>
-<div class="node endpoint n3"><i>▤</i><b>NAS</b><small>STORAGE</small></div>
-<div class="node endpoint n4"><i>⌘</i><b>Workstations</b><small>MAC · WINDOWS</small></div>
-</div>
-<aside><div class="topo-title"><i></i> LAB STATUS <span>DOCUMENTED</span></div><p><b>Purpose</b><small>Networking · Linux · Automation · Security Learning</small></p><p><b>Security model</b><small>Eigene / autorisierte Systeme und Testumgebungen</small></p><p><b>Documentation</b><small>Architektur bewusst vereinfacht; keine öffentlichen Zugangsdaten</small></p><div class="legend"><span><i></i> Infrastructure</span><span><i></i> Lab host</span><span><i></i> Storage / Client</span></div></aside></div></section>
-<section id="about" class="block about"><header><span>◎</span><h2>Über mich</h2></header><h3>BUILD. BREAK. UNDERSTAND. IMPROVE.</h3><p>Ich dokumentiere hier meinen Weg tiefer in Netzwerk- und Security-Themen. Der Schwerpunkt liegt auf praktischem Lernen mit Linux, Python, Netzwerkdiagnose und meinem Homelab. Security-Tests finden ausschließlich in eigenen oder ausdrücklich autorisierten Umgebungen statt.</p></section>
-</main><footer><span>GEEKSTATION // CeeLeeT</span><span>© <b id="year"></b> · <i id="online">● SYSTEM ONLINE</i></span></footer><script src="assets/app.js"></script></body></html>
+<!doctype html>
+<html lang="de">
+<head>
+  <!-- Basic metadata for responsive rendering and search previews. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="GeekStation – CeeLeeTs Portfolio für Cybersecurity, Networking, Linux und Python.">
+  <title>GeekStation // CeeLeeT</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- Sticky top navigation: keeps the main portfolio areas one click away. -->
+  <nav>
+    <a class="brand" href="#top">◈ <b>GeekStation</b><small>CYBERSECURITY · NETWORKING · LINUX</small></a>
+    <div class="navlinks">
+      <a href="#projects">Projekte</a>
+      <a href="#lab">Lab</a>
+      <a href="#stack">Tech Stack</a>
+      <a href="#about">Über mich</a>
+      <a href="https://github.com/CeeLeeT">GitHub ↗</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <!-- Hero: quick positioning, portfolio CTA and visual identity. -->
+    <section class="hero">
+      <div class="copy">
+        <p class="eyebrow">WELCOME TO MY DIGITAL LAB</p>
+        <h1>GEEK<span>STATION</span></h1>
+        <h2>CYBERSECURITY · NETWORKING · LINUX · PYTHON · HOMELAB</h2>
+        <p>Mein persönliches IT-Lab mit Projekten, Dokumentation und praktischen Experimenten rund um Netzwerke, Linux, Python und defensive Cybersecurity.</p>
+        <div class="buttons">
+          <a class="blue" href="#projects">Meine Projekte ↓</a>
+          <a href="https://github.com/CeeLeeT">GitHub Profil ↗</a>
+        </div>
+        <div class="facts">
+          <b>8+<small>Projektbereiche</small></b>
+          <b>4<small>Kernbereiche</small></b>
+          <b>100%<small>Learning by doing</small></b>
+        </div>
+      </div>
+
+      <!-- Hero preview image. Kept local so GitHub Pages serves it reliably. -->
+      <div class="visual">
+        <img src="assets/geekstation-preview.svg" alt="GeekStation Cybersecurity Dashboard Preview">
+        <div class="visual-caption"><i></i> GEEKSTATION // COMMAND CENTER</div>
+      </div>
+    </section>
+
+    <!-- Featured repositories: the most polished and representative projects. -->
+    <section id="projects" class="block">
+      <header><span>★</span><h2>Featured Projects</h2><p>Ausgewählte Projekte aus meinem Lab</p></header>
+      <div class="cards">
+        <a class="card wide" href="https://github.com/CeeLeeT/cybersecurity-lab-dashboard">
+          <div class="thumb threat">◎<small>SECURITY LAB</small></div>
+          <div class="pad"><label>WEB / SECURITY</label><h3>Cybersecurity Lab Dashboard</h3><p>Dashboard für Lab-Inventar, Lernziele und lokale Notizen.</p><tags><i>HTML</i><i>CSS</i><i>JavaScript</i></tags></div>
+        </a>
+        <a class="card" href="https://github.com/CeeLeeT/network-scanner-python">
+          <div class="thumb net">⌁<small>NETWORK</small></div>
+          <div class="pad"><label>PYTHON / NETWORK</label><h3>Network Scanner</h3><p>Host Discovery für eigene oder autorisierte Netzwerke.</p><tags><i>Python</i><i>TCP/IP</i><i>CLI</i></tags></div>
+        </a>
+        <a class="card" href="https://github.com/CeeLeeT/linux-system-monitor">
+          <div class="thumb monitor">⌘<small>LINUX</small></div>
+          <div class="pad"><label>PYTHON / LINUX</label><h3>Linux System Monitor</h3><p>Uptime, Kernel, Load, RAM und Disk direkt im Terminal.</p><tags><i>Python</i><i>Linux</i><i>/proc</i></tags></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Archive: older repositories and learning/documentation collections. -->
+    <section class="block">
+      <header><span>⌘</span><h2>Project Archive</h2><p>Repos, Labs, Experimente & Dokumentation</p></header>
+      <div class="archive">
+        <a href="https://github.com/CeeLeeT/Kali-Linux"><b>Kali Linux</b><span>LAB / DOCS</span><p>Notizen und Dokumentation rund um Kali Linux.</p></a>
+        <a href="https://github.com/CeeLeeT/Python"><b>Python</b><span>LEARNING</span><p>Python-Notizen, Links und kleine Skripte.</p></a>
+        <a href="https://github.com/CeeLeeT/Terminal"><b>Terminal</b><span>DOCS</span><p>Terminal- und Command-Line-Dokumentation.</p></a>
+        <a href="https://github.com/CeeLeeT/Windows"><b>Windows</b><span>DOCS</span><p>Windows-Notizen und technische Referenzen.</p></a>
+        <a href="https://github.com/CeeLeeT/code"><b>Code</b><span>ARCHIVE</span><p>Älteres Code- und Referenz-Repository.</p></a>
+        <a href="https://github.com/CeeLeeT"><b>GitHub</b><span>ALL REPOS</span><p>Alle öffentlichen Repositories ansehen.</p></a>
+      </div>
+    </section>
+
+    <!-- Skills + lab focus: summarizes the current learning stack without fake proficiency scores. -->
+    <section id="stack" class="block split">
+      <div>
+        <header><span>▣</span><h2>Tech Stack</h2></header>
+        <div class="tech">
+          <b>🐧<small>Linux</small></b><b>◈<small>Kali Linux</small></b><b>Py<small>Python</small></b><b>&gt;_<small>Shell</small></b>
+          <b>⌁<small>Network</small></b><b>◇<small>Security</small></b><b>HTML<small>Web</small></b><b>Git<small>GitHub</small></b>
+        </div>
+      </div>
+      <div id="lab">
+        <header><span>⌁</span><h2>Homelab Focus</h2></header>
+        <div class="status">
+          <p><i></i><b>Linux & System Administration</b><span>ACTIVE</span></p>
+          <p><i></i><b>Networking & Protocols</b><span>ACTIVE</span></p>
+          <p><i></i><b>Python & Automation</b><span>BUILDING</span></p>
+          <p><i></i><b>Cybersecurity Lab</b><span>LEARNING</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Public-safe topology: intentionally simplified, with no credentials or private addresses. -->
+    <section id="topology" class="block topology-block">
+      <header><span>⌁</span><h2>Homelab Topology</h2><p>Vereinfachte Darstellung meines Lern- und Testnetzwerks</p></header>
+      <div class="topology">
+        <div class="topo-grid">
+          <div class="node internet"><i>◎</i><b>Internet</b><small>WAN</small></div>
+          <div class="wire w1"></div>
+          <div class="node router"><i>▣</i><b>FRITZ!Box 6660</b><small>ROUTER · DHCP · GATEWAY</small></div>
+          <div class="wire w2"></div>
+          <div class="node ap"><i>◉</i><b>FRITZ!Box 7490</b><small>ACCESS POINT</small></div>
+          <div class="wire w3"></div>
+          <div class="node switch"><i>⌁</i><b>LAN / WLAN</b><small>LAB NETWORK</small></div>
+          <div class="branch"></div>
+          <div class="node endpoint n1"><i>π</i><b>Raspberry Pi</b><small>LINUX NODE</small></div>
+          <div class="node endpoint n2"><i>◆</i><b>Kali VM</b><small>SECURITY LAB</small></div>
+          <div class="node endpoint n3"><i>▤</i><b>NAS</b><small>STORAGE</small></div>
+          <div class="node endpoint n4"><i>⌘</i><b>Workstations</b><small>MAC · WINDOWS</small></div>
+        </div>
+        <aside>
+          <div class="topo-title"><i></i> LAB STATUS <span>DOCUMENTED</span></div>
+          <p><b>Purpose</b><small>Networking · Linux · Automation · Security Learning</small></p>
+          <p><b>Security model</b><small>Eigene / autorisierte Systeme und Testumgebungen</small></p>
+          <p><b>Documentation</b><small>Architektur bewusst vereinfacht; keine öffentlichen Zugangsdaten</small></p>
+          <div class="legend"><span><i></i> Infrastructure</span><span><i></i> Lab host</span><span><i></i> Storage / Client</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About section: short and credible positioning of the portfolio. -->
+    <section id="about" class="block about">
+      <header><span>◎</span><h2>Über mich</h2></header>
+      <h3>BUILD. BREAK. UNDERSTAND. IMPROVE.</h3>
+      <p>Ich dokumentiere hier meinen Weg tiefer in Netzwerk- und Security-Themen. Der Schwerpunkt liegt auf praktischem Lernen mit Linux, Python, Netzwerkdiagnose und meinem Homelab. Security-Tests finden ausschließlich in eigenen oder ausdrücklich autorisierten Umgebungen statt.</p>
+    </section>
+  </main>
+
+  <footer><span>GEEKSTATION // CeeLeeT</span><span>© <b id="year"></b> · <i id="online">● SYSTEM ONLINE</i></span></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
