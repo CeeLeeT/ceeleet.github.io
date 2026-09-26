@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">GeekStation Command Center Preview</title>
+<desc id="desc">Stylized cybersecurity dashboard with terminal panels, network graph and homelab status cards.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#04101d"/><stop offset="1" stop-color="#08031a"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#16b8ff"/><stop offset="1" stop-color="#b44cff"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1600" height="900" rx="24" fill="url(#bg)"/>
+<circle cx="1280" cy="170" r="170" fill="#173d8a" opacity=".22" filter="url(#blur)"/>
+<circle cx="320" cy="710" r="190" fill="#54218a" opacity=".18" filter="url(#blur)"/>
+
+<!-- Top bar -->
+<rect x="55" y="45" width="1490" height="64" rx="14" fill="#081526" stroke="#153f60"/>
+<circle cx="88" cy="77" r="7" fill="#4dff9b"/><text x="110" y="84" font-size="28" font-family="monospace" fill="#e8f4ff">GEEKSTATION // COMMAND CENTER</text>
+<text x="1325" y="84" font-size="18" font-family="monospace" fill="#4dff9b">SYSTEM ONLINE</text>
+
+<!-- Left terminal -->
+<rect x="70" y="145" width="560" height="300" rx="18" fill="#06111d" stroke="#195076"/>
+<text x="100" y="185" font-size="18" font-family="monospace" fill="#31e6ff">ceeleet@geekstation:~</text>
+<text x="100" y="230" font-size="22" font-family="monospace" fill="#819db1">$ whoami</text>
+<text x="100" y="265" font-size="22" font-family="monospace" fill="#4dff9b">CeeLeeT</text>
+<text x="100" y="315" font-size="22" font-family="monospace" fill="#819db1">$ cat focus.txt</text>
+<text x="100" y="350" font-size="22" font-family="monospace" fill="#e8f4ff">Python · Linux · Networking</text>
+<text x="100" y="388" font-size="22" font-family="monospace" fill="#e8f4ff">Cybersecurity · Homelab</text>
+
+<!-- Right dashboard -->
+<rect x="670" y="145" width="860" height="510" rx="18" fill="#06111d" stroke="#195076"/>
+<text x="710" y="190" font-size="20" font-family="monospace" fill="#31e6ff">LAB TOPOLOGY</text>
+
+<!-- Network graph -->
+<g stroke="url(#glow)" stroke-width="4" opacity=".9">
+  <line x1="1100" y1="250" x2="860" y2="370"/><line x1="1100" y1="250" x2="1340" y2="370"/>
+  <line x1="860" y1="370" x2="760" y2="535"/><line x1="860" y1="370" x2="990" y2="535"/>
+  <line x1="1340" y1="370" x2="1210" y2="535"/><line x1="1340" y1="370" x2="1450" y2="535"/>
+</g>
+<g fill="#0a1b2b" stroke="#31e6ff" stroke-width="3">
+  <circle cx="1100" cy="250" r="48"/><circle cx="860" cy="370" r="42"/><circle cx="1340" cy="370" r="42"/>
+  <circle cx="760" cy="535" r="36"/><circle cx="990" cy="535" r="36"/><circle cx="1210" cy="535" r="36"/><circle cx="1450" cy="535" r="36"/>
+</g>
+<g font-family="monospace" font-size="14" fill="#e8f4ff" text-anchor="middle">
+  <text x="1100" y="255">ROUTER</text><text x="860" y="375">AP</text><text x="1340" y="375">LAN</text>
+  <text x="760" y="540">PI</text><text x="990" y="540">KALI</text><text x="1210" y="540">NAS</text><text x="1450" y="540">CLIENTS</text>
+</g>
+
+<!-- Bottom cards -->
+<g>
+  <rect x="70" y="490" width="260" height="150" rx="16" fill="#091827" stroke="#173f5c"/>
+  <rect x="350" y="490" width="260" height="150" rx="16" fill="#091827" stroke="#173f5c"/>
+  <text x="95" y="530" font-size="16" font-family="monospace" fill="#31e6ff">NETWORK</text>
+  <text x="95" y="575" font-size="34" font-family="monospace" fill="#e8f4ff">TCP/IP</text>
+  <text x="375" y="530" font-size="16" font-family="monospace" fill="#31e6ff">AUTOMATION</text>
+  <text x="375" y="575" font-size="34" font-family="monospace" fill="#e8f4ff">PYTHON</text>
+</g>
+
+<!-- Footer accent -->
+<rect x="70" y="720" width="1460" height="8" rx="4" fill="url(#glow)"/>
+<text x="70" y="790" font-size="48" font-family="Arial, sans-serif" font-weight="700" fill="#ffffff">BUILD · LEARN · SECURE</text>
+<text x="70" y="835" font-size="22" font-family="monospace" fill="#7891a3">Cybersecurity · Networking · Linux · Python · Homelab</text>
+</svg>
