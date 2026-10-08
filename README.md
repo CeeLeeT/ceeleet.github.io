@@ -1,30 +1,42 @@
-# GeekStation Portfolio
+# GeekStation
 
-![GeekStation Preview](assets/geekstation-preview.svg)
+Persönliches IT-Portfolio von **CeeLeeT**: Linux, Netzwerke, Python und Cybersecurity.
 
-Persönliches Portfolio und Homelab-Dashboard für **Cybersecurity, Networking, Linux und Python**.
+**Website:** https://ceeleet.github.io/
 
-## Bereiche
+![GeekStation Portfolio](assets/portfolio-preview.webp)
 
-- Featured Projects
-- Project Archive
-- Tech Stack
-- Homelab Focus
-- Vereinfachte Netzwerk-Topologie
-- Dokumentierter Lernpfad
+## Inhalte
 
-## Struktur
+- Drei eigene Lernprojekte: Network Scanner, Linux System Monitor und Lab Dashboard.
+- Themenarchive für Kali Linux, Python, Terminal und Windows.
+- Kurze persönliche Einordnung der Arbeit mit Linux, Python und dem Homelab.
 
-```text
-.
-├── index.html              # Hauptseite und semantische Inhaltsstruktur
-├── assets/
-│   ├── style.css           # Designsystem, Layout und Responsive Styles
-│   ├── app.js              # Kleine clientseitige Helfer
-│   └── geekstation-preview.svg  # Portfolio-Vorschaubild
-└── README.md
+## Aufbau
+
+| Datei | Aufgabe |
+|---|---|
+| `index.html` | Inhalte, Navigation und Metadaten |
+| `assets/style.css` | Durchgehend dunkles Design und responsive Layouts |
+| `assets/app.js` | Mobiles Menü und Jahreszahl |
+| `assets/geekstation-logo.svg` | Vorhandenes GeekStation-Schildlogo |
+| `assets/homelab.webp` | Optimiertes Homelab-Motiv für große Bildschirme |
+| `assets/homelab-small.webp` | Kleinere Bildversion für mobile Geräte |
+| `assets/apple-touch-icon.png` | Logo für iOS-Lesezeichen |
+| `assets/portfolio-preview.webp` | Vorschau der tatsächlichen Website |
+
+## Lokal ansehen
+
+Im Projektordner:
+
+```bash
+python3 -m http.server 8080
 ```
 
-Der Quellcode ist bewusst kommentiert, damit sich Aufbau und Styling später leichter erweitern lassen.
+Dann http://localhost:8080 öffnen. Kein Build-Schritt, keine externen Schriften und keine Analyse-Tracker. Die Inhalte und die Navigation sind auch ohne JavaScript erreichbar; JavaScript ergänzt das einklappbare mobile Menü.
 
-> Security-Hinweis: Öffentliche Darstellungen des Homelabs sind absichtlich vereinfacht und enthalten keine Zugangsdaten oder privaten IP-Adressen.
+## Pflege
+
+Texte und Links werden in `index.html` bearbeitet. Farben und Abstände sind zentral in `assets/style.css` definiert. Alle Bilder liegen im Repository; das Homelab-Motiv ist KI-generiert und zeigt keinen tatsächlichen privaten Raum. Die Terminalausgabe auf der Seite ist ein gekennzeichnetes Beispiel.
+
+Veröffentlicht wird über GitHub Pages aus `main`. Details zur Gestaltung und Prüfung stehen in [docs/design-and-validation.md](docs/design-and-validation.md).
